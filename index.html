@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        #camera { width: 640px; height: 480px; margin: 20px auto; border: 2px solid #333; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Проверка камеры</h1>
+    <video id="camera" autoplay playsinline></video>
+    <br>
+    <button id="startBtn">Включить камеру</button>
+    <button id="stopBtn" disabled>Выключить камеру</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
